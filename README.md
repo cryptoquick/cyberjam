@@ -10,11 +10,12 @@ when a site is broadcast, browsers automatically open up a new request to the si
 
 for running the extension, each peer earns some crypto tokens after successfully visiting sites that are broadcast as well as personally visiting sites, stored in a token contract and backed by ethereum, and can be cashed out when desired.
 
-the payment model for those who want to make use of the network, one possibility is that they will purchase 0.1 ETH, or $~20 worth of tokens, given the price of ETH on a given day, which would purchase 1000 passive clicks, or 100 active clicks.
+the payment model for those who want to make use of the network, one possibility is that they will purchase 0.1 ETH, or \$~20 worth of tokens, given the price of ETH on a given day, which would purchase 1000 passive clicks, or 100 active clicks.
 
 ## mvp features
 
 - [ ] extension
+
   - [ ] web3 login
   - [ ] notifications
   - [ ] passive visits
@@ -23,16 +24,21 @@ the payment model for those who want to make use of the network, one possibility
   - [ ] callback to server to validate response
 
 - [ ] server
+
   - [ ] web3 auth
   - [ ] /validate - validates clients who claim to have visited the site
   - [ ] tracker - track active peers
   - [ ] notifications server
 
 - [ ] site
+
   - [ ] explainer copy
   - [ ] install extension
   - [ ] check token funds in wallet
-  - [ ] 
+  - [ ] request a cyberjam
+
+    - [ ] immediate passive visits from real users' browsers
+    - [ ] eventual active visits from real users
 
 ## backlog
 
